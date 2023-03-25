@@ -2,25 +2,28 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
-h1{
+.deiman-container>h1{
     font-size: 40px;
 }
 
 .orange-color{
     color: orange;
 }
-.banner{
-    display: flex;
-    justify-content:space-around;
-    padding: 50px;
-}
+
 p{
     width: 400px;
    text-align: justify;
 }
-button{
+.download-btn, .hire-btn{
     padding: 10px 20px;
     background-color: #f1270c;
     color: #fff;
     border: none;
 }
+.deiman-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
