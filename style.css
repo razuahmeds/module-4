@@ -4,5 +4,23 @@ body{
 }
 h1{
     font-size: 40px;
+}
+
+.orange-color{
     color: orange;
+}
+.banner{
+    display: flex;
+    justify-content:space-around;
+    padding: 50px;
+}
+p{
+    width: 400px;
+   text-align: justify;
+}
+button{
+    padding: 10px 20px;
+    background-color: #f1270c;
+    color: #fff;
+    border: none;
 }
